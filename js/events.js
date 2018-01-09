@@ -3,7 +3,8 @@ function getIt() {
 }
 
 function frameIt() {
-  var pix = document.getElementsByTagName('img')
+var pix = document.images
+  //var pix = document.getElementsByTagName('img')
   pix.style.border='2px solid red'
 }
 
