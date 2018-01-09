@@ -3,9 +3,9 @@ function getIt() {
 }
 
 function frameIt() {
-//var pix = document.images
-var pix = document.getElementsById('img')
-  pix.style.border='medium solid red'
+var pixClass = document.getElementsByTagName('img')
+pixClass.classList.add(pixClass)
+  pixClass.style.border='medium solid red'
 }
 
 $(document).ready(function(){
