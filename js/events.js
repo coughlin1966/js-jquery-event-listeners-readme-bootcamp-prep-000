@@ -22,19 +22,19 @@ $(p).on('click', function() {
 
 function getIt() {
   $('p').on('click', function() {
-    alert("Hey!");
+    alert('Hey!')
   })
 }
 
 function frameIt() {
   $('img').on('load', function() {
-    $(this).addClass('tasty');
+    $(this).addClass('tasty')
   })
 }
 
 function submitIt() {
   $('form').on('submit', function() {
-    alert("Your form is going to be submitted now.");
+    alert('Your form is going to be submitted now.')
   })
 }
 
@@ -42,7 +42,7 @@ function pressIt() {
   $('#typing').on('keydown', function() {
 var key = 0
     if (key.keyCode === 71) {
-      alert("The g key was pressed.");
+      alert('The G key was pressed.')
     }
   })
 }
@@ -50,9 +50,9 @@ var key = 0
 $(document).ready(function(){
 
 // call functions here
-getIt();
-frameIt();
-submitIt();
-pressIt();
+getIt()
+frameIt()
+submitIt()
+pressIt()
 
 });
