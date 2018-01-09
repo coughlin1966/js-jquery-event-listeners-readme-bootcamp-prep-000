@@ -42,7 +42,7 @@ function pressIt(key) {
   $('input').on('keydown', function() {
 //var key = 0
     if (key.keyCode == 71) {
-      alert('The G key was pressed.')
+      alert('G key was pressed.')
     }
   })
 }
