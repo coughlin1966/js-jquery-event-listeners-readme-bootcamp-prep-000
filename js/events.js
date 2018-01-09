@@ -5,7 +5,7 @@ function getIt() {
 function frameIt() {
 var pix = document.images
   //var pix = document.getElementsByTagName('img')
-  pix.style.border='2px solid red'
+  pix.style.border='medium solid red'
 }
 
 $(document).ready(function(){
